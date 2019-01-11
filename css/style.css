@@ -5,8 +5,22 @@ background-image:url('../images/bg.jpg');
     
 }
 
-.container{
-	padding:5px;
+.container {
+    padding: 20px;
+    float: left;
+}
+@media (min-width: 1200px){
+.container {
+    width: 1080px;
+}}
+@media (min-width: 768px){
+.navbar-nav>li {
+    float: none;
+}}
+.navbar {
+    max-width: 250px;
+    float: left;
+    min-height: -webkit-fill-available;
 }
 
 img{
